@@ -1,0 +1,8 @@
+src/
+.eslintrc
+tsconfig.json
+.gitignore
+.vscode/
+node_modules/**/*.d.ts
+node_modules/tabris/ClientMock.js
+README.md

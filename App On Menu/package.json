@@ -1,0 +1,17 @@
+{
+  "main": "dist",
+  "private": true,
+  "scripts": {
+    "test": "npm run build && npm run lint",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w --preserveWatchOutput --inlineSourceMap",
+    "start": "tabris serve -a -w"
+  },
+  "dependencies": {
+    "tabris": "~3.8.0"
+  },
+  "devDependencies": {
+    "typescript": "~3.8.3"
+  }
+}
